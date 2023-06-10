@@ -1,0 +1,29 @@
+.barra-navegacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: RGB(36, 36, 68);
+    border-radius: 20px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 40px;
+}
+
+a:hover{
+    border: black groove 5px;
+}
+
+div{
+    border: solid black 3px;
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+}
